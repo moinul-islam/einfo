@@ -62,13 +62,59 @@
         <div class="row">
           
 
+           
+            
+            
+   
             <div class="col">
+            
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Filter
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">View Data</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+    
                 <select class="custom-select">
+                    <option selected>View Notifications</option>
+                    <option value="0">Account Notifications</option>
+                    <option value="1">Profiles Notifications</option>
+                  </select>
+    
+                  <select class="custom-select">
                     <option selected>All Notifications</option>
-                    <option value="1">Our Notifications</option>
-                    <option value="2">Others Notifications</option>
-                </select>  
+                    <option value="1">Profiles</option>
+                    <option value="2">Services</option>
+                    <option value="3">Post</option>
+                  </select>
+    
+                  <select class="custom-select">
+                    <option selected>Select Profile</option>
+                    <option value="1">NIOM IT</option>
+                  </select>
+    
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Go</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
               </div>
+    
 
 
 
@@ -125,48 +171,26 @@
 
 
 
+
           <div class="col order-1">
             
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
-    Profile
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel2">Change Profile</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
+
+            <!-- Example single danger button -->
+          <div class="btn-group full-width">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#"> <i class="fa fa-eye" aria-hidden="true"></i> Seen</a>
+                <a class="dropdown-item" href="#"> <i class="fa fa-eye-slash" aria-hidden="true"></i> Unseen</a>                
+              </div>
+            </div>
+          
+          
+                    </div>
           
 
-          <select class="custom-select">
-            <option selected>Select Profile</option>
-            <option value="1">NIOM IT</option>
-          </select>
 
-          <select class="custom-select">
-            <option selected>Select Notifications-Catagory</option>
-            <option value="1">Profile Notifications</option>
-            <option value="2">Service Notifications</option>
-            <option value="3">Post Notifications</option>
-          </select>
-
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Go</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-          </div>
         </div>
       </div>
 
