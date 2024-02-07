@@ -13,6 +13,23 @@ h3 {
     margin: 0 auto;
 }
 
+.filterCont {
+    margin-bottom: 20px;
+}
+
+
+
+.btn-primary {
+    width: 100%;
+}
+
+.custom-select {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+
 /* .second-nav{
     top: 34px;
 } 
